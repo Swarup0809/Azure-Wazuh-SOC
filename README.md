@@ -17,7 +17,7 @@ The project was implemented using open-source technologies while following real-
 # 🏗 Architecture
 
 <p align="center">
-  <img src="../images/01-soc-architecure.png" width="850">
+  <img src="images/01-soc_architecure.png" width="850">
 </p>
 
 ### Architecture Components
