@@ -39,7 +39,7 @@ Supported events include:
 - Permission changes
 - Integrity checksum changes
 
-This enables rapid detection of unauthorized modifications that could indicate malware activity, insider threats, or system compromise. :contentReference[oaicite:0]{index=0}
+This enables rapid detection of unauthorized modifications that could indicate malware activity, insider threats, or system compromise.
 
 ---
 
@@ -57,7 +57,7 @@ For the Linux endpoint, I configured Wazuh to monitor a dedicated directory in r
 /home/snowden/Desktop/monitorthis
 ```
 
-This directory was intentionally created for testing file integrity events without affecting system files. :contentReference[oaicite:1]{index=1}
+This directory was intentionally created for testing file integrity events without affecting system files.
 
 ---
 
@@ -92,8 +92,6 @@ The configuration enables:
 - Detection of file modification
 - Detection of file deletion
 - Detection of rename events
-
-:contentReference[oaicite:2]{index=2}
 
 ---
 
@@ -150,7 +148,7 @@ The dashboard displayed information including:
 <p align="center">
 <b>Figure 3.</b> File Integrity Monitoring events displayed in the Dashboard.
 </p>
-The successful detection of all file operations confirmed that the Linux endpoint was actively monitored in real time. :contentReference[oaicite:3]{index=3}
+The successful detection of all file operations confirmed that the Linux endpoint was actively monitored in real time.
 
 ---
 
@@ -168,7 +166,7 @@ To extend endpoint visibility, I configured File Integrity Monitoring on the Win
 C:\Users\windows_agent\Desktop\monitorthis
 ```
 
-This directory was selected as an isolated testing location for validating Windows file events. :contentReference[oaicite:4]{index=4}
+This directory was selected as an isolated testing location for validating Windows file events.
 
 ---
 
@@ -228,7 +226,7 @@ The generated events included:
 <b>Figure 6.</b> Windows File Integrity Monitoring alerts displayed in the Wazuh Dashboard.
 </p>
 
-The successful detection of every file operation demonstrated that the Windows endpoint was continuously monitored and capable of forwarding real-time integrity events to the centralized SIEM platform. :contentReference[oaicite:5]{index=5}
+The successful detection of every file operation demonstrated that the Windows endpoint was continuously monitored and capable of forwarding real-time integrity events to the centralized SIEM platform.
 
 ---
 
