@@ -62,6 +62,7 @@ Once the networking was configured, the server was ready for installing and conf
 <p align="center">
   <img src="../screenshots/02.png" width="900">
 </p>
+
 ---
 
 ## Result
