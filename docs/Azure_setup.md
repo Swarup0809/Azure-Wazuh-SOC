@@ -48,7 +48,7 @@ The following ports were opened in the Azure Network Security Group:
 | 1515 | Agent registration |
 
 <p align="center">
-  <img src="screenshots/01.png" width="900">
+  <img src="../screenshots/01.png" width="900">
 </p>
 
 ---
@@ -60,7 +60,7 @@ The Ubuntu virtual machine was created in Azure and configured with SSH key auth
 Once the networking was configured, the server was ready for installing and configuring the Wazuh SIEM platform.
 
 <p align="center">
-  <img src="screenshots/02.png" width="900">
+  <img src="../screenshots/02.png" width="900">
 </p>
 ---
 
