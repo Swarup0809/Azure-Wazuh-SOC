@@ -17,7 +17,7 @@ The project was implemented using open-source technologies while following real-
 # 🏗 Architecture
 
 <p align="center">
-  <img src="02_images/Architecture.png" width="850">
+  <img src="images/01-soc-architecure.png" width="850">
 </p>
 
 ### Architecture Components
@@ -31,7 +31,6 @@ The project was implemented using open-source technologies while following real-
 - Windows Agent
 - Sysmon
 - VirusTotal API
-- Active Response
 
 ---
 
@@ -45,7 +44,6 @@ The project was implemented using open-source technologies while following real-
 - Windows File Integrity Monitoring (FIM)
 - Microsoft Sysmon integration
 - VirusTotal threat intelligence enrichment
-- Active Response implementation
 - Centralized log collection and visualization
 - Real-time security alert generation
 
@@ -64,7 +62,6 @@ The project was implemented using open-source technologies while following real-
 | Windows Endpoint | Windows Agent |
 | Endpoint Monitoring | Sysmon |
 | Threat Intelligence | VirusTotal API |
-| Version Control | Git & GitHub |
 
 ---
 
@@ -74,18 +71,17 @@ The project was implemented using open-source technologies while following real-
 Cloud-Based-SOC-with-Wazuh/
 
 ├── 01_documentation/
-│   ├── Azure Deployment
+│   ├── Azure Setup and Configuration
 │   ├── Wazuh Installation
-│   ├── Ubuntu Agent Setup
-│   ├── Windows Agent Setup
+│   ├── Ubuntu Agent Configuration
+│   ├── Windows Agent Configuration
 │   ├── File Integrity Monitoring
 │   ├── Sysmon Configuration
 │   ├── VirusTotal Integration
-│   ├── Active Response
 │   └── Validation & Testing
 │
 ├── 02_images/
-│   ├── Architecture.png
+│   ├── SOC-Architecture.png
 │   ├── Dashboard Screenshots
 │   └── Alert Screenshots
 │
@@ -111,9 +107,6 @@ Rule Analysis
         │
         ▼
 VirusTotal Lookup (if applicable)
-        │
-        ▼
-Active Response (Configured Events)
         │
         ▼
 Wazuh Dashboard
@@ -159,13 +152,6 @@ Security Analyst Investigation
 
 ---
 
-## Active Response
-
-- Automated response to selected security events
-- Demonstrates defensive security automation
-
----
-
 # ✅ Validation Performed
 
 The following scenarios were successfully tested during the project:
@@ -176,7 +162,6 @@ The following scenarios were successfully tested during the project:
 - Windows FIM alerts generated
 - Sysmon logs collected successfully
 - VirusTotal alerts generated
-- Active Response executed successfully
 - Security events visible in Wazuh Dashboard
 
 ---
@@ -192,8 +177,6 @@ The repository includes screenshots demonstrating:
 - Windows FIM Alerts
 - Sysmon Events
 - VirusTotal Detection
-- Active Response Execution
-
 ---
 
 # 💡 Skills Demonstrated
@@ -208,7 +191,6 @@ The repository includes screenshots demonstrating:
 - Threat Detection
 - Threat Intelligence
 - Incident Response
-- Active Response
 - Log Analysis
 - Network Security
 - Security Documentation
@@ -253,9 +235,9 @@ This project demonstrates the deployment of a centralized cloud-based Security O
 
 ## 👨‍💻 Author
 
-**Swarup Reddy**
+**T.R.J.Swarup Reddy**
 
-Cybersecurity Student | Cloud Security | Defensive Security | SIEM | Azure | Wazuh
+Cybersecurity Student | SOC | Cloud Security | Blue Team Security | SIEM | Azure | Wazuh
 
 ---
 
