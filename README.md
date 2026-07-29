@@ -55,7 +55,7 @@ The project was implemented using open-source technologies while following real-
 |------------|------------|
 | Cloud Platform | Microsoft Azure |
 | Operating System | Ubuntu Server 22.04 LTS |
-| SIEM | Wazuh 4.7.5 |
+| SIEM | Wazuh 4.7 |
 | Dashboard | Wazuh Dashboard |
 | Indexer | Wazuh Indexer |
 | Linux Endpoint | Ubuntu Agent |
