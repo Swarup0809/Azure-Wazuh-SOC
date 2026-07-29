@@ -34,7 +34,7 @@ The project was implemented using open-source technologies while following real-
 
 ---
 
-# 🚀 Features
+# Features
 
 - Centralized SIEM deployed on Microsoft Azure
 - Cross-platform endpoint monitoring
@@ -55,7 +55,7 @@ The project was implemented using open-source technologies while following real-
 |------------|------------|
 | Cloud Platform | Microsoft Azure |
 | Operating System | Ubuntu Server 22.04 LTS |
-| SIEM | Wazuh 4.x |
+| SIEM | Wazuh 4.7.5 |
 | Dashboard | Wazuh Dashboard |
 | Indexer | Wazuh Indexer |
 | Linux Endpoint | Ubuntu Agent |
@@ -117,7 +117,7 @@ Security Analyst Investigation
 
 ---
 
-# 🔍 Security Use Cases
+# Security Use Cases
 
 ## Linux File Integrity Monitoring
 
@@ -152,7 +152,7 @@ Security Analyst Investigation
 
 ---
 
-# ✅ Validation Performed
+# Validation Performed
 
 The following scenarios were successfully tested during the project:
 
@@ -166,7 +166,7 @@ The following scenarios were successfully tested during the project:
 
 ---
 
-# 📸 Project Screenshots
+# Project Screenshots
 
 The repository includes screenshots demonstrating:
 
@@ -179,7 +179,7 @@ The repository includes screenshots demonstrating:
 - VirusTotal Detection
 ---
 
-# 💡 Skills Demonstrated
+# Skills Demonstrated
 
 - Security Operations Center (SOC)
 - Security Information and Event Management (SIEM)
@@ -197,7 +197,7 @@ The repository includes screenshots demonstrating:
 
 ---
 
-# 📚 Key Learnings
+#  Key Learnings
 
 This project provided practical experience in:
 
@@ -212,7 +212,7 @@ This project provided practical experience in:
 
 ---
 
-# 🔮 Future Enhancements
+#  Future Enhancements
 
 Potential future improvements include:
 
@@ -227,7 +227,7 @@ Potential future improvements include:
 
 ---
 
-# 📝 Conclusion
+#  Conclusion
 
 This project demonstrates the deployment of a centralized cloud-based Security Operations Center using Wazuh on Microsoft Azure. By integrating Linux and Windows endpoint monitoring, File Integrity Monitoring, Sysmon, VirusTotal, and Active Response, the solution provides real-time visibility into endpoint security events while showcasing practical blue-team skills and modern SOC operations.
 
